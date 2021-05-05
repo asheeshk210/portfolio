@@ -1,0 +1,161 @@
+.navbar-brand {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5%;
+    border-radius: 5%;
+}
+
+.links {
+    margin-left: 42%;
+}
+
+.nav-item {
+    margin: 0% 5%;
+}
+
+.box {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+}
+
+.img {
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    background-color: #1a1a1a;
+    font-size: 10vw;
+    line-height: 80%;
+    font-weight: bold;
+    color: white;
+    padding: 5% 2% 3% 2%;
+}
+
+.skill {
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.port {
+    text-align: center;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.card {
+    margin: 2%;
+    border: 1px solid #1abc9c;
+}
+
+.photo {
+    width: 100%;
+    height: 150px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 200%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about {
+    font-family: sans-serif;
+    padding: 2% 15%;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 150%;
+}
+
+.contact {
+    font-family: sans-serif;
+    padding: 5% 15%;
+}
+
+.c_header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.f_txt {
+    font-size: 150%;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    color: white;
+}
+
+.last {
+    color: white;
+    background-color: #212832;
+    padding: 1%;
+}
+
+.end {
+    justify-content: center;
+}
+
+.inlinetxt {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        background-color: #1a1a1a;
+        font-size: 10vw;
+        line-height: 50%;
+        font-weight: bold;
+        color: white;
+        padding: 8% 2% 3% 2%;
+        text-align: center;
+    }
+    .img {
+        width: 70%;
+        height: 70%;
+        border-radius: 100%;
+        position: static;
+        margin-top: 50%;
+        margin-left: 50%;
+    }
+    .inlinetxt {
+        display: block;
+        padding: 4%;
+    }
+    .notinline {
+        display: none;
+    }
+    .subnav {
+        align-items: center;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .nav-item {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .links {
+        margin-left: 0%;
+    }
+}
