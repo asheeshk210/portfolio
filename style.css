@@ -119,16 +119,6 @@ h2 {
 .inlinetxt {
     display: none;
 }
-.pbox {
-    width: 100%;
-    height: 100%;
-    background-color: none;
-    border: 1px solid #1abc9c;
-    padding: 5%;
-    border-radius: 5px;
-    margin: 2% 0% 5% 0%;
-    padding-bottom: 0%;
-}
 @media only screen and (max-width: 600px) {
     .header {
         background-color: #1a1a1a;
